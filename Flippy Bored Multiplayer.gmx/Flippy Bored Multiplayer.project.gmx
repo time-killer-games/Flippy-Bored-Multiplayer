@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assets>
+  <Configs name="configs">
+    <Config>Configs\Default</Config>
+  </Configs>
+  <sprites name="sprites">
+    <sprite>sprites\pausebtn</sprite>
+    <sprite>sprites\spr_howto</sprite>
+    <sprite>sprites\spr_slamdunk</sprite>
+    <sprite>sprites\spr_audio_credits</sprite>
+    <sprite>sprites\spr_titletext</sprite>
+    <sprite>sprites\spr_titleback</sprite>
+    <sprite>sprites\spr_levels</sprite>
+    <sprite>sprites\spr_gui</sprite>
+    <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_charlives</sprite>
+    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\spr_char2lives</sprite>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_1d</sprite>
+    <sprite>sprites\spr_2d</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_1e</sprite>
+    <sprite>sprites\spr_2e</sprite>
+    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spr_1a</sprite>
+    <sprite>sprites\spr_2a</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\spr_1b</sprite>
+    <sprite>sprites\spr_2b</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\spr_1c</sprite>
+    <sprite>sprites\spr_2c</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\spr_1f</sprite>
+    <sprite>sprites\spr_2f</sprite>
+    <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\icon</sprite>
+  </sprites>
+  <sounds name="sound">
+    <sound>sound\snd_coin_drop</sound>
+    <sound>sound\snd_dead</sound>
+    <sound>sound\snd_lullaby</sound>
+    <sound>sound\snd_organ</sound>
+    <sound>sound\snd_retro</sound>
+    <sound>sound\snd_slamdunk</sound>
+    <sound>sound\snd_theme1</sound>
+    <sound>sound\snd_theme2</sound>
+    <sound>sound\snd_theme3</sound>
+    <sound>sound\snd_theme4</sound>
+    <sound>sound\snd_violin</sound>
+  </sounds>
+  <backgrounds name="background">
+    <background>background\back_panroama</background>
+    <background>background\back_panroama2</background>
+  </backgrounds>
+  <fonts name="fonts">
+    <font>fonts\fnt_default</font>
+    <font>fonts\fnt_default2</font>
+    <font>fonts\fnt_default3</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_keypress</object>
+    <object>objects\objpause</object>
+    <object>objects\obj_howto</object>
+    <object>objects\obj_slamdunk</object>
+    <object>objects\obj_loading</object>
+    <object>objects\obj_audio_credits</object>
+    <object>objects\obj_titletext</object>
+    <object>objects\obj_titleback</object>
+    <object>objects\object22</object>
+    <object>objects\obj_shadow</object>
+    <object>objects\obj_charshad</object>
+    <object>objects\obj_char2shad</object>
+    <object>objects\obj_goldshad</object>
+    <object>objects\obj_char</object>
+    <object>objects\obj_chardie</object>
+    <object>objects\obj_char2</object>
+    <object>objects\obj_char2die</object>
+    <object>objects\obj_gold</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_spikedead</object>
+    <object>objects\obj_goldead</object>
+    <object>objects\obj_cannonup</object>
+    <object>objects\obj_cannondown</object>
+    <object>objects\object1</object>
+    <object>objects\object2</object>
+    <object>objects\object3</object>
+    <object>objects\object4</object>
+    <object>objects\object5</object>
+    <object>objects\object13</object>
+    <object>objects\object20</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\loading</room>
+    <room>rooms\title</room>
+    <room>rooms\howto</room>
+    <room>rooms\level1</room>
+    <room>rooms\level2</room>
+    <room>rooms\level3</room>
+    <room>rooms\level4</room>
+    <room>rooms\level5</room>
+    <room>rooms\level6</room>
+    <room>rooms\level7</room>
+    <room>rooms\level8</room>
+    <room>rooms\level9</room>
+    <room>rooms\winner</room>
+  </rooms>
+  <constants number="0"/>
+  <help>
+    <rtf>help.rtf</rtf>
+  </help>
+</assets>

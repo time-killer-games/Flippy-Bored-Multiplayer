@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>&lt;undefined&gt;</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>0</depth>
+  <persistent>-1</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[0] = 10;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>window_set_icon(icon,0)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="56" eventtype="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*if (window_mouse_get_x()&lt;=window_get_width()/2)&amp;&amp;
+!(window_mouse_get_x()&gt;=(window_get_width()/2)-((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_x()&lt;=(window_get_width()/2)+((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_y()&gt;=(window_get_height()/7.5)-(window_get_height()/15)&amp;&amp;
+window_mouse_get_y()&lt;=(window_get_height()/7.5)+(window_get_height()/15))
+{keyboard_key_release(global.k_W)} 
+else if !(window_mouse_get_x()&gt;=(window_get_width()/2)-((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_x()&lt;=(window_get_width()/2)+((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_y()&gt;=(window_get_height()/7.5)-(window_get_height()/15)&amp;&amp;
+window_mouse_get_y()&lt;=(window_get_height()/7.5)+(window_get_height()/15))
+{keyboard_key_release(vk_up)}*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="53" eventtype="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*if (window_mouse_get_x()&lt;=window_get_width()/2)&amp;&amp;
+!(window_mouse_get_x()&gt;=(window_get_width()/2)-((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_x()&lt;=(window_get_width()/2)+((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_y()&gt;=(window_get_height()/7.5)-(window_get_height()/15)&amp;&amp;
+window_mouse_get_y()&lt;=(window_get_height()/7.5)+(window_get_height()/15))
+{keyboard_key_press(global.k_W)} 
+else if !(window_mouse_get_x()&gt;=(window_get_width()/2)-((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_x()&lt;=(window_get_width()/2)+((window_get_width()/2)/10)&amp;&amp;
+window_mouse_get_y()&gt;=(window_get_height()/7.5)-(window_get_height()/15)&amp;&amp;
+window_mouse_get_y()&lt;=(window_get_height()/7.5)+(window_get_height()/15))
+{keyboard_key_press(vk_up)}*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="2" eventtype="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>window_set_caption("Flippy Bored Multiplayer")
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints/>
+</object>

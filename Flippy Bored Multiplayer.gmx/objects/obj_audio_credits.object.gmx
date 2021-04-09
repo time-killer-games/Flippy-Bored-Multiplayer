@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>spr_audio_credits</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>-10</depth>
+  <persistent>0</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alpha=0
+t=background_get_texture(back_panroama)
+t2=background_get_texture(back_panroama2)
+
+infinite=""
+digits=1
+too=0
+image_speed=0
+zippy=0
+
+randip=round(random(4))
+sooboo=0
+
+d3d_start();
+d3d_set_hidden(0)
+d3d_set_culling(0)
+direction=359
+z=0;
+zdir=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if keyboard_check_pressed(vk_escape)&#13;
+{game_end()&#13;
+exit}</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if sooboo&lt;=50
+
+{sooboo+=1}
+
+
+
+if sooboo&gt;=2&amp;&amp;sooboo&lt;=100
+
+{if (randip=0)
+
+{if (!sound_isplaying(snd_retro))
+
+{sound_play(snd_retro)}}
+
+
+
+if (randip=1)
+
+{if (!sound_isplaying(snd_lullaby))
+
+{sound_play(snd_lullaby)}}
+
+
+
+if (randip=2)
+
+{if (!sound_isplaying(snd_organ))
+
+{sound_play(snd_organ)}}
+
+
+
+if (randip&gt;=3)
+
+{if (!sound_isplaying(snd_violin))
+
+{sound_play(snd_violin)}}
+
+sooboo=200}
+
+
+
+if (alpha&gt;=1)
+
+{alpha=1}
+
+else {alpha+=.005}
+
+
+
+if zippy&gt;=300
+
+{image_index=1
+
+global.dub=1}
+
+zippy+=1
+
+
+
+if image_index==0
+
+{if direction&gt;180
+
+{direction-=(point_distance(direction,0,180,0)/50)}
+
+if direction&lt;180
+
+{direction=180}}</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>zippy</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>300</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>too+=1  
+if (too&gt;=25)
+{too=25}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>visible</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>too</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>25</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>222</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_next_room</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+    <event enumb="5" eventtype="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>d3d_end()</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>d3d_set_projection_ext(x,y,z,&#13;
+x+cos(degtorad(direction))*cos(degtorad(zdir)),&#13;
+y-sin(degtorad(direction))*cos(degtorad(zdir)),&#13;
+z+sin(degtorad(zdir)),0,0,1,45,4/1,1,100000000)&#13;
+&#13;
+if (image_index==0)&#13;
+{d3d_draw_cylinder(x-1000,y-1000,z+1000,x+1000,y+1000,z-1000,t,1,1,1,1000)}&#13;
+else {d3d_draw_cylinder(x-1000,y-1000,z+1000,x+1000,y+1000,z-1000,t2,1,1,1,1000)}&#13;
+&#13;
+draw_set_color(c_white)&#13;
+d3d_set_lighting(0)&#13;
+d3d_set_projection_ortho(0,0,640,480,0)&#13;
+draw_sprite_stretched_ext(sprite_index,image_index,0,0,640,480,c_white,alpha)</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="39" eventtype="10">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>zippy</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>300</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>visible</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>too</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>25</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>222</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_next_room</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+    <event enumb="37" eventtype="10">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>zippy</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>300</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>visible</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>too</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>25</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>222</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_next_room</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints>
+    <point>0.0,0.0</point>
+    <point>360.0,360.0</point>
+  </PhysicsShapePoints>
+</object>

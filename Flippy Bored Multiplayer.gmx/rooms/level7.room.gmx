@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<room>
+  <caption/>
+  <width>8192</width>
+  <height>6400</height>
+  <hsnap>128</hsnap>
+  <vsnap>64</vsnap>
+  <isometric>0</isometric>
+  <speed>30</speed>
+  <persistent>0</persistent>
+  <colour>0</colour>
+  <showcolour>-1</showcolour>
+  <code/>
+  <enableViews>-1</enableViews>
+  <clearViewBackground>-1</clearViewBackground>
+  <makerSettings>
+    <isSet>0</isSet>
+    <w>0</w>
+    <h>0</h>
+    <showGrid>0</showGrid>
+    <showObjects>0</showObjects>
+    <showTiles>0</showTiles>
+    <showBackgrounds>0</showBackgrounds>
+    <showForegrounds>0</showForegrounds>
+    <showViews>0</showViews>
+    <deleteUnderlyingObj>0</deleteUnderlyingObj>
+    <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
+    <page>0</page>
+    <xoffset>0</xoffset>
+    <yoffset>0</yoffset>
+  </makerSettings>
+  <backgrounds>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="-1" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+    <background foreground="0" hspeed="0" htiled="-1" name="" stretch="0" visible="0" vspeed="0" vtiled="-1" x="0" y="0"/>
+  </backgrounds>
+  <views>
+    <view hborder="400" hport="480" hspeed="-1" hview="1200" objName="obj_char" vborder="600" visible="-1" vspeed="-1" wport="320" wview="800" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="400" hport="480" hspeed="-1" hview="1200" objName="obj_char2" vborder="600" visible="-1" vspeed="-1" wport="320" wview="800" xport="320" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+    <view hborder="32" hport="480" hspeed="-1" hview="480" objName="&lt;undefined&gt;" vborder="32" visible="0" vspeed="-1" wport="640" wview="640" xport="0" xview="0" yport="0" yview="0"/>
+  </views>
+  <instances>
+    <instance code="" colour="4294967295" id="101874" locked="0" name="inst_8011A14E" objName="obj_char" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1024" y="896"/>
+    <instance code="" colour="4294967295" id="101875" locked="0" name="inst_30FF2B1A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="5376"/>
+    <instance code="" colour="4294967295" id="101876" locked="0" name="inst_C31096C2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="5632"/>
+    <instance code="" colour="4294967295" id="101877" locked="0" name="inst_2BFD8F61" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="768"/>
+    <instance code="" colour="4294967295" id="101878" locked="0" name="inst_72BC4451" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="5120"/>
+    <instance code="" colour="4294967295" id="101879" locked="0" name="inst_546B3E4D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="6144"/>
+    <instance code="" colour="4294967295" id="101880" locked="0" name="inst_B4391D3F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="6144"/>
+    <instance code="" colour="4294967295" id="101881" locked="0" name="inst_0356D758" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="0"/>
+    <instance code="" colour="4294967295" id="101882" locked="0" name="inst_E5002133" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="3840"/>
+    <instance code="" colour="4294967295" id="101883" locked="0" name="inst_7A441F6E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="4096"/>
+    <instance code="" colour="4294967295" id="101884" locked="0" name="inst_EDB3EB2E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="3840"/>
+    <instance code="" colour="4294967295" id="101885" locked="0" name="inst_0902D6F6" objName="obj_char2" rotation="0.0" scaleX="1.0" scaleY="1.0" x="1024" y="5760"/>
+    <instance code="" colour="4294967295" id="101886" locked="0" name="inst_E157BA44" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="5120"/>
+    <instance code="" colour="4294967295" id="101887" locked="0" name="inst_0AFBC044" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3584" y="6144"/>
+    <instance code="" colour="4294967295" id="101888" locked="0" name="inst_111B09F7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="1280"/>
+    <instance code="" colour="4294967295" id="101889" locked="0" name="inst_7DB78E5B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="1024"/>
+    <instance code="" colour="4294967295" id="101890" locked="0" name="inst_94CF4036" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="768"/>
+    <instance code="" colour="4294967295" id="101891" locked="0" name="inst_BED72FE7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="512"/>
+    <instance code="" colour="4294967295" id="101892" locked="0" name="inst_60F7208E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="256"/>
+    <instance code="" colour="4294967295" id="101893" locked="0" name="inst_9FB6AD4B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="0"/>
+    <instance code="" colour="4294967295" id="101894" locked="0" name="inst_1E597197" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="256" y="0"/>
+    <instance code="" colour="4294967295" id="101895" locked="0" name="inst_29736927" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="512" y="0"/>
+    <instance code="" colour="4294967295" id="101896" locked="0" name="inst_753D0134" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="768" y="0"/>
+    <instance code="" colour="4294967295" id="101897" locked="0" name="inst_F0824A77" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1024" y="0"/>
+    <instance code="" colour="4294967295" id="101898" locked="0" name="inst_309F1B8C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="0"/>
+    <instance code="" colour="4294967295" id="101899" locked="0" name="inst_ACDEFD36" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="0"/>
+    <instance code="" colour="4294967295" id="101900" locked="0" name="inst_5876C236" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="4096"/>
+    <instance code="" colour="4294967295" id="101901" locked="0" name="inst_236DFD91" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="3072"/>
+    <instance code="" colour="4294967295" id="101902" locked="0" name="inst_EF24B195" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="4352"/>
+    <instance code="" colour="4294967295" id="101903" locked="0" name="inst_EB1AC672" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="6144"/>
+    <instance code="" colour="4294967295" id="101904" locked="0" name="inst_3DB04800" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="5120"/>
+    <instance code="" colour="4294967295" id="101905" locked="0" name="inst_F16B152A" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="3840"/>
+    <instance code="" colour="4294967295" id="101906" locked="0" name="inst_C1F56B80" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="4608"/>
+    <instance code="" colour="4294967295" id="101907" locked="0" name="inst_7E5B8515" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="5376"/>
+    <instance code="" colour="4294967295" id="101908" locked="0" name="inst_41FF4C45" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3328" y="6144"/>
+    <instance code="" colour="4294967295" id="101909" locked="0" name="inst_06F66C17" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="6144"/>
+    <instance code="" colour="4294967295" id="101910" locked="0" name="inst_B08DAE07" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="4608"/>
+    <instance code="" colour="4294967295" id="101911" locked="0" name="inst_B70A5CFC" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2048" y="0"/>
+    <instance code="" colour="4294967295" id="101912" locked="0" name="inst_FB1A47A8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2304" y="0"/>
+    <instance code="" colour="4294967295" id="101913" locked="0" name="inst_E98B864E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="1024"/>
+    <instance code="" colour="4294967295" id="101914" locked="0" name="inst_6FA57964" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="6144"/>
+    <instance code="" colour="4294967295" id="101915" locked="0" name="inst_CD79F2FD" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="1024"/>
+    <instance code="" colour="4294967295" id="101916" locked="0" name="inst_C961579F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2560" y="0"/>
+    <instance code="" colour="4294967295" id="101917" locked="0" name="inst_3C457F0E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2816" y="0"/>
+    <instance code="" colour="4294967295" id="101918" locked="0" name="inst_7173983B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="0"/>
+    <instance code="" colour="4294967295" id="101919" locked="0" name="inst_BB51DBCD" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="512"/>
+    <instance code="" colour="4294967295" id="101920" locked="0" name="inst_4FEA949C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7168" y="6144"/>
+    <instance code="" colour="4294967295" id="101921" locked="0" name="inst_706D01E9" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="1536"/>
+    <instance code="" colour="4294967295" id="101922" locked="0" name="inst_948988CA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="6144"/>
+    <instance code="" colour="4294967295" id="101923" locked="0" name="inst_0DAB1601" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="2048"/>
+    <instance code="" colour="4294967295" id="101924" locked="0" name="inst_F65294EA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="0"/>
+    <instance code="" colour="4294967295" id="101925" locked="0" name="inst_46233E4B" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2176" y="3072"/>
+    <instance code="" colour="4294967295" id="101926" locked="0" name="inst_9AB11C6A" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="1792"/>
+    <instance code="" colour="4294967295" id="101927" locked="0" name="inst_974E18D1" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="2304"/>
+    <instance code="" colour="4294967295" id="101928" locked="0" name="inst_9F6EFF37" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="6144"/>
+    <instance code="" colour="4294967295" id="101929" locked="0" name="inst_E2877CBF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="4352"/>
+    <instance code="" colour="4294967295" id="101930" locked="0" name="inst_425AB095" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="3840"/>
+    <instance code="" colour="4294967295" id="101931" locked="0" name="inst_574BEF70" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="3072"/>
+    <instance code="" colour="4294967295" id="101932" locked="0" name="inst_E3585660" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2816" y="6144"/>
+    <instance code="" colour="4294967295" id="101933" locked="0" name="inst_E2BFECBA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="768"/>
+    <instance code="" colour="4294967295" id="101934" locked="0" name="inst_E2A507C5" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="256"/>
+    <instance code="" colour="4294967295" id="101935" locked="0" name="inst_0F234C23" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="512"/>
+    <instance code="" colour="4294967295" id="101936" locked="0" name="inst_10B45A88" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="6144"/>
+    <instance code="" colour="4294967295" id="101937" locked="0" name="inst_1EED2E7B" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="4352"/>
+    <instance code="" colour="4294967295" id="101938" locked="0" name="inst_2C2AFF0A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="3584"/>
+    <instance code="" colour="4294967295" id="101939" locked="0" name="inst_DB368EAE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="3328"/>
+    <instance code="" colour="4294967295" id="101940" locked="0" name="inst_9D88C428" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="256"/>
+    <instance code="" colour="4294967295" id="101941" locked="0" name="inst_050EDBAA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="2560"/>
+    <instance code="" colour="4294967295" id="101942" locked="0" name="inst_E26FAE20" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="5888"/>
+    <instance code="" colour="4294967295" id="101943" locked="0" name="inst_529E63C5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="3328"/>
+    <instance code="" colour="4294967295" id="101944" locked="0" name="inst_EDA38F86" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="1280"/>
+    <instance code="" colour="4294967295" id="101945" locked="0" name="inst_F6C5883C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="4352"/>
+    <instance code="" colour="4294967295" id="101946" locked="0" name="inst_B6E139C1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="1536"/>
+    <instance code="" colour="4294967295" id="101947" locked="0" name="inst_D5E5FD12" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="2048"/>
+    <instance code="" colour="4294967295" id="101948" locked="0" name="inst_64401CD0" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="3584"/>
+    <instance code="" colour="4294967295" id="101949" locked="0" name="inst_E95BCDFF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="1536"/>
+    <instance code="" colour="4294967295" id="101950" locked="0" name="inst_817A70CF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="6144"/>
+    <instance code="" colour="4294967295" id="101951" locked="0" name="inst_DFB8355C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="2304"/>
+    <instance code="" colour="4294967295" id="101952" locked="0" name="inst_038CA470" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="1792"/>
+    <instance code="" colour="4294967295" id="101953" locked="0" name="inst_1D988806" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="2048"/>
+    <instance code="" colour="4294967295" id="101954" locked="0" name="inst_1834C68F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="4864"/>
+    <instance code="" colour="4294967295" id="101955" locked="0" name="inst_7F3BDDE6" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2048" y="6144"/>
+    <instance code="" colour="4294967295" id="101956" locked="0" name="inst_0699C6F7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="2304"/>
+    <instance code="" colour="4294967295" id="101957" locked="0" name="inst_D26366CD" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="2560"/>
+    <instance code="" colour="4294967295" id="101958" locked="0" name="inst_A006792D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2304" y="6144"/>
+    <instance code="" colour="4294967295" id="101959" locked="0" name="inst_F4C272D8" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="2560"/>
+    <instance code="" colour="4294967295" id="101960" locked="0" name="inst_F20DD693" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="2048"/>
+    <instance code="" colour="4294967295" id="101961" locked="0" name="inst_B3E08054" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4352" y="6144"/>
+    <instance code="" colour="4294967295" id="101962" locked="0" name="inst_F96D0CEA" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="4096"/>
+    <instance code="" colour="4294967295" id="101963" locked="0" name="inst_546208E1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="5888"/>
+    <instance code="" colour="4294967295" id="101964" locked="0" name="inst_68672973" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="1792"/>
+    <instance code="" colour="4294967295" id="101965" locked="0" name="inst_A715CC13" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="768" y="4608"/>
+    <instance code="" colour="4294967295" id="101966" locked="0" name="inst_32C3AA4D" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="4096"/>
+    <instance code="" colour="4294967295" id="101967" locked="0" name="inst_E6EAAA05" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="6144"/>
+    <instance code="" colour="4294967295" id="101968" locked="0" name="inst_824D3A57" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="6144"/>
+    <instance code="" colour="4294967295" id="101969" locked="0" name="inst_98F5928F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="6144"/>
+    <instance code="" colour="4294967295" id="101970" locked="0" name="inst_388B2C84" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="4864"/>
+    <instance code="" colour="4294967295" id="101971" locked="0" name="inst_20B43F96" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="5632"/>
+    <instance code="" colour="4294967295" id="101972" locked="0" name="inst_0A3CEC16" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="256" y="6144"/>
+    <instance code="" colour="4294967295" id="101973" locked="0" name="inst_D601AF9D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="6144"/>
+    <instance code="" colour="4294967295" id="101974" locked="0" name="inst_21DE9AF6" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1024" y="6144"/>
+    <instance code="" colour="4294967295" id="101975" locked="0" name="inst_F401DB76" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="768" y="6144"/>
+    <instance code="" colour="4294967295" id="101976" locked="0" name="inst_190FBD0C" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="5888"/>
+    <instance code="" colour="4294967295" id="101977" locked="0" name="inst_2E81A7A1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="3584"/>
+    <instance code="" colour="4294967295" id="101978" locked="0" name="inst_165F6D17" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="6144"/>
+    <instance code="" colour="4294967295" id="101979" locked="0" name="inst_8887459C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2560" y="6144"/>
+    <instance code="" colour="4294967295" id="101980" locked="0" name="inst_E34E0DC8" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="1792"/>
+    <instance code="" colour="4294967295" id="101981" locked="0" name="inst_DF34A13F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="2560"/>
+    <instance code="" colour="4294967295" id="101982" locked="0" name="inst_9D684D54" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="2304"/>
+    <instance code="" colour="4294967295" id="101983" locked="0" name="inst_4B81CFD7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="2816"/>
+    <instance code="" colour="4294967295" id="101984" locked="0" name="inst_52D81F26" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="2816"/>
+    <instance code="" colour="4294967295" id="101985" locked="0" name="inst_4E6464B8" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="2816"/>
+    <instance code="" colour="4294967295" id="101986" locked="0" name="inst_35A3233E" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="1280"/>
+    <instance code="" colour="4294967295" id="101987" locked="0" name="inst_965ECE64" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="3328"/>
+    <instance code="" colour="4294967295" id="101988" locked="0" name="inst_A1D625CE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="3072"/>
+    <instance code="" colour="4294967295" id="101989" locked="0" name="inst_73CA3F3D" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="5376"/>
+    <instance code="" colour="4294967295" id="101990" locked="0" name="inst_50F8985C" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="5632"/>
+    <instance code="" colour="4294967295" id="101991" locked="0" name="inst_4BB730ED" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="3072"/>
+    <instance code="" colour="4294967295" id="101992" locked="0" name="inst_FD7B9C33" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="512" y="6144"/>
+    <instance code="" colour="4294967295" id="101993" locked="0" name="inst_C2A70659" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="6144"/>
+    <instance code="" colour="4294967295" id="101994" locked="0" name="inst_D12EABDB" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="6144"/>
+    <instance code="" colour="4294967295" id="101995" locked="0" name="inst_BC82C242" objName="object13" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="0"/>
+    <instance code="" colour="4294967295" id="101996" locked="0" name="inst_347C4D42" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7936" y="4608"/>
+    <instance code="" colour="4294967295" id="101997" locked="0" name="inst_7E6CAEBB" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7424" y="6144"/>
+    <instance code="" colour="4294967295" id="101998" locked="0" name="inst_B79EBF42" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="6144"/>
+    <instance code="" colour="4294967295" id="101999" locked="0" name="inst_0C489663" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="4864"/>
+    <instance code="" colour="4294967295" id="102000" locked="0" name="inst_DB8E2F14" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7808" y="6144"/>
+    <instance code="" colour="4294967295" id="102001" locked="0" name="inst_014709AC" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="6144"/>
+    <instance code="" colour="4294967295" id="102002" locked="0" name="inst_E19A585C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="256" y="4864"/>
+    <instance code="" colour="4294967295" id="102003" locked="0" name="inst_14046E47" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="5120"/>
+    <instance code="" colour="4294967295" id="102004" locked="0" name="inst_DBB610DB" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="5888"/>
+    <instance code="" colour="4294967295" id="102005" locked="0" name="inst_2684EC76" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="5632"/>
+    <instance code="" colour="4294967295" id="102006" locked="0" name="inst_9ABCBD24" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="5376"/>
+    <instance code="" colour="4294967295" id="102007" locked="0" name="inst_A4ACE09D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="384" y="1280"/>
+    <instance code="" colour="4294967295" id="102008" locked="0" name="inst_8C73DE85" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="1024"/>
+    <instance code="" colour="4294967295" id="102009" locked="0" name="inst_6D78E8D5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="768"/>
+    <instance code="" colour="4294967295" id="102010" locked="0" name="inst_6DC36CA5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="512"/>
+    <instance code="" colour="4294967295" id="102011" locked="0" name="inst_D723428F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="256"/>
+    <instance code="" colour="4294967295" id="102012" locked="0" name="inst_9F8DF630" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="3584"/>
+    <instance code="" colour="4294967295" id="102013" locked="0" name="inst_BB48EBC9" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="3328"/>
+    <instance code="" colour="4294967295" id="102014" locked="0" name="inst_73F90F26" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7296" y="3072"/>
+    <instance code="" colour="4294967295" id="102015" locked="0" name="inst_4D23538E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5376" y="6144"/>
+    <instance code="" colour="4294967295" id="102016" locked="0" name="inst_13C4F605" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3328" y="0"/>
+    <instance code="" colour="4294967295" id="102017" locked="0" name="inst_811E38A3" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3584" y="0"/>
+    <instance code="" colour="4294967295" id="102018" locked="0" name="inst_80D490C8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="0"/>
+    <instance code="" colour="4294967295" id="102019" locked="0" name="inst_35732BD9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="0"/>
+    <instance code="" colour="4294967295" id="102020" locked="0" name="inst_1977CCDD" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4352" y="0"/>
+    <instance code="" colour="4294967295" id="102021" locked="0" name="inst_7E0365AE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="0"/>
+    <instance code="" colour="4294967295" id="102022" locked="0" name="inst_031CC80B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="0"/>
+    <instance code="" colour="4294967295" id="102023" locked="0" name="inst_13DC5C31" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="0"/>
+    <instance code="" colour="4294967295" id="102024" locked="0" name="inst_B484B782" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5376" y="0"/>
+    <instance code="" colour="4294967295" id="102025" locked="0" name="inst_347C6BDC" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="0"/>
+    <instance code="" colour="4294967295" id="102026" locked="0" name="inst_CE129EF4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="0"/>
+    <instance code="" colour="4294967295" id="102027" locked="0" name="inst_26AB22B4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="0"/>
+    <instance code="" colour="4294967295" id="102028" locked="0" name="inst_A377997A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="0"/>
+    <instance code="" colour="4294967295" id="102029" locked="0" name="inst_6BEB6089" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="0"/>
+    <instance code="" colour="4294967295" id="102030" locked="0" name="inst_22004FCF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="0"/>
+    <instance code="" colour="4294967295" id="102031" locked="0" name="inst_A35B4155" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7168" y="0"/>
+    <instance code="" colour="4294967295" id="102032" locked="0" name="inst_06CF3AA9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7424" y="0"/>
+    <instance code="" colour="4294967295" id="102033" locked="0" name="inst_F97C2C5C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="0"/>
+    <instance code="" colour="4294967295" id="102034" locked="0" name="inst_4B3375FB" objName="object1" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="5632"/>
+    <instance code="" colour="4294967295" id="102035" locked="0" name="inst_15086583" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="512" y="4864"/>
+    <instance code="" colour="4294967295" id="102036" locked="0" name="inst_7EB2D148" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="768" y="4864"/>
+    <instance code="" colour="4294967295" id="102037" locked="0" name="inst_BF66A02D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1024" y="4864"/>
+    <instance code="" colour="4294967295" id="102038" locked="0" name="inst_08B5BF12" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="4864"/>
+    <instance code="" colour="4294967295" id="102039" locked="0" name="inst_B0B43DAE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="4864"/>
+    <instance code="" colour="4294967295" id="102040" locked="0" name="inst_B8760AE0" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="4864"/>
+    <instance code="" colour="4294967295" id="102041" locked="0" name="inst_9083D9E9" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="4608"/>
+    <instance code="" colour="4294967295" id="102042" locked="0" name="inst_E7F7EBFA" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="4352"/>
+    <instance code="" colour="4294967295" id="102043" locked="0" name="inst_0908BBFE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="4608"/>
+    <instance code="" colour="4294967295" id="102044" locked="0" name="inst_2BCA3A8D" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="4928"/>
+    <instance code="" colour="4294967295" id="102045" locked="0" name="inst_36C07415" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="4608"/>
+    <instance code="" colour="4294967295" id="102046" locked="0" name="inst_143570FF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1024" y="4608"/>
+    <instance code="" colour="4294967295" id="102047" locked="0" name="inst_BA014571" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="256" y="4608"/>
+    <instance code="" colour="4294967295" id="102048" locked="0" name="inst_53A9073C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="512" y="4608"/>
+    <instance code="" colour="4294967295" id="102049" locked="0" name="inst_51F8FE4F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="4608"/>
+    <instance code="" colour="4294967295" id="102050" locked="0" name="inst_61C0FFCF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="4096"/>
+    <instance code="" colour="4294967295" id="102051" locked="0" name="inst_742EED5D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="3840"/>
+    <instance code="" colour="4294967295" id="102052" locked="0" name="inst_6CD0F149" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="4352"/>
+    <instance code="" colour="4294967295" id="102053" locked="0" name="inst_8C9343D8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2048" y="3840"/>
+    <instance code="" colour="4294967295" id="102054" locked="0" name="inst_B3BD84BA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2304" y="3840"/>
+    <instance code="" colour="4294967295" id="102055" locked="0" name="inst_8E623E30" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2048" y="4096"/>
+    <instance code="" colour="4294967295" id="102056" locked="0" name="inst_6A4322D3" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2304" y="4096"/>
+    <instance code="" colour="4294967295" id="102057" locked="0" name="inst_01E9F4A8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2560" y="4096"/>
+    <instance code="" colour="4294967295" id="102058" locked="0" name="inst_D0222286" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2560" y="3840"/>
+    <instance code="" colour="4294967295" id="102059" locked="0" name="inst_A24ED966" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2816" y="3840"/>
+    <instance code="" colour="4294967295" id="102060" locked="0" name="inst_2A4EA271" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2816" y="4096"/>
+    <instance code="" colour="4294967295" id="102061" locked="0" name="inst_05E07727" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="4352"/>
+    <instance code="" colour="4294967295" id="102062" locked="0" name="inst_D8B21C6F" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="4096"/>
+    <instance code="" colour="4294967295" id="102063" locked="0" name="inst_34DD524B" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1664" y="3840"/>
+    <instance code="" colour="4294967295" id="102064" locked="0" name="inst_82B20BEE" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="5120"/>
+    <instance code="" colour="4294967295" id="102065" locked="0" name="inst_A633B431" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="5376"/>
+    <instance code="" colour="4294967295" id="102066" locked="0" name="inst_BF7B54A2" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="5376"/>
+    <instance code="" colour="4294967295" id="102067" locked="0" name="inst_1F70F9F3" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="5120"/>
+    <instance code="" colour="4294967295" id="102068" locked="0" name="inst_1326B9D0" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="4864"/>
+    <instance code="" colour="4294967295" id="102069" locked="0" name="inst_A7CE3A30" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="4608"/>
+    <instance code="" colour="4294967295" id="102070" locked="0" name="inst_A5756A71" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="4352"/>
+    <instance code="" colour="4294967295" id="102071" locked="0" name="inst_E5BE71FF" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="4096"/>
+    <instance code="" colour="4294967295" id="102072" locked="0" name="inst_9FC49B97" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="3840"/>
+    <instance code="" colour="4294967295" id="102073" locked="0" name="inst_DA9729DC" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="4544"/>
+    <instance code="" colour="4294967295" id="102074" locked="0" name="inst_AA15DC9E" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="4736"/>
+    <instance code="" colour="4294967295" id="102075" locked="0" name="inst_AF6ABC79" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1664" y="4864"/>
+    <instance code="" colour="4294967295" id="102076" locked="0" name="inst_618AB5AD" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="5888"/>
+    <instance code="" colour="4294967295" id="102077" locked="0" name="inst_47CEE88A" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="5632"/>
+    <instance code="" colour="4294967295" id="102078" locked="0" name="inst_190D278E" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="5376"/>
+    <instance code="" colour="4294967295" id="102079" locked="0" name="inst_83C318BA" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="5120"/>
+    <instance code="" colour="4294967295" id="102080" locked="0" name="inst_19DB9F18" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="4864"/>
+    <instance code="" colour="4294967295" id="102081" locked="0" name="inst_7CA7EB32" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="4608"/>
+    <instance code="" colour="4294967295" id="102082" locked="0" name="inst_77D9D36C" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="4352"/>
+    <instance code="" colour="4294967295" id="102083" locked="0" name="inst_991D76AE" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="4096"/>
+    <instance code="" colour="4294967295" id="102084" locked="0" name="inst_7409DD74" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3968" y="3840"/>
+    <instance code="" colour="4294967295" id="102085" locked="0" name="inst_DEDB6E34" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4224" y="3840"/>
+    <instance code="" colour="4294967295" id="102086" locked="0" name="inst_81CEE1C1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="4096"/>
+    <instance code="" colour="4294967295" id="102087" locked="0" name="inst_7A209444" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="1792"/>
+    <instance code="" colour="4294967295" id="102088" locked="0" name="inst_875FFCD3" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="1536"/>
+    <instance code="" colour="4294967295" id="102089" locked="0" name="inst_0C70A426" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="1280"/>
+    <instance code="" colour="4294967295" id="102090" locked="0" name="inst_434FB805" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="1024"/>
+    <instance code="" colour="4294967295" id="102091" locked="0" name="inst_9E9A5098" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="768"/>
+    <instance code="" colour="4294967295" id="102092" locked="0" name="inst_01F416BA" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="512"/>
+    <instance code="" colour="4294967295" id="102093" locked="0" name="inst_21A6EF77" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="256"/>
+    <instance code="" colour="4294967295" id="102094" locked="0" name="inst_340A0EA9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4352" y="4096"/>
+    <instance code="" colour="4294967295" id="102095" locked="0" name="inst_EA194617" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="4096"/>
+    <instance code="" colour="4294967295" id="102096" locked="0" name="inst_475F9CCF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="4096"/>
+    <instance code="" colour="4294967295" id="102097" locked="0" name="inst_E0C4A07E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="4096"/>
+    <instance code="" colour="4294967295" id="102098" locked="0" name="inst_D161C760" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="4096"/>
+    <instance code="" colour="4294967295" id="102099" locked="0" name="inst_FD333EBF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4480" y="3840"/>
+    <instance code="" colour="4294967295" id="102100" locked="0" name="inst_625F453B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4736" y="3840"/>
+    <instance code="" colour="4294967295" id="102101" locked="0" name="inst_589C71A2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4992" y="3840"/>
+    <instance code="" colour="4294967295" id="102102" locked="0" name="inst_4A0FF34F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="3840"/>
+    <instance code="" colour="4294967295" id="102103" locked="0" name="inst_106161FF" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5504" y="4096"/>
+    <instance code="" colour="4294967295" id="102104" locked="0" name="inst_D2E11217" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5504" y="3840"/>
+    <instance code="" colour="4294967295" id="102105" locked="0" name="inst_66AE2403" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="3840"/>
+    <instance code="" colour="4294967295" id="102106" locked="0" name="inst_CBD736D1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="4096"/>
+    <instance code="" colour="4294967295" id="102107" locked="0" name="inst_3BF8E4E7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6016" y="4096"/>
+    <instance code="" colour="4294967295" id="102108" locked="0" name="inst_81F1C0EA" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6016" y="3840"/>
+    <instance code="" colour="4294967295" id="102109" locked="0" name="inst_EA2D5360" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6272" y="3840"/>
+    <instance code="" colour="4294967295" id="102110" locked="0" name="inst_E50C6972" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6272" y="4096"/>
+    <instance code="" colour="4294967295" id="102111" locked="0" name="inst_601D53C5" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6528" y="4096"/>
+    <instance code="" colour="4294967295" id="102112" locked="0" name="inst_41264B49" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6784" y="4096"/>
+    <instance code="" colour="4294967295" id="102113" locked="0" name="inst_A5B26C10" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6528" y="3840"/>
+    <instance code="" colour="4294967295" id="102114" locked="0" name="inst_65FE9000" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6784" y="3840"/>
+    <instance code="" colour="4294967295" id="102115" locked="0" name="inst_3E4AAA66" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="4096"/>
+    <instance code="" colour="4294967295" id="102116" locked="0" name="inst_8AF8CBDC" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="3840"/>
+    <instance code="" colour="4294967295" id="102117" locked="0" name="inst_088B7A4A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6784" y="5440"/>
+    <instance code="" colour="4294967295" id="102118" locked="0" name="inst_1274B17E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6528" y="5440"/>
+    <instance code="" colour="4294967295" id="102119" locked="0" name="inst_FB9BF341" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6272" y="5440"/>
+    <instance code="" colour="4294967295" id="102120" locked="0" name="inst_A7214901" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6016" y="5440"/>
+    <instance code="" colour="4294967295" id="102121" locked="0" name="inst_1D3421F9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="5440"/>
+    <instance code="" colour="4294967295" id="102122" locked="0" name="inst_EBF6C203" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5504" y="5440"/>
+    <instance code="" colour="4294967295" id="102123" locked="0" name="inst_8396DF9F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="5440"/>
+    <instance code="" colour="4294967295" id="102124" locked="0" name="inst_63080439" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4992" y="5440"/>
+    <instance code="" colour="4294967295" id="102125" locked="0" name="inst_8F6A9CAE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4736" y="5440"/>
+    <instance code="" colour="4294967295" id="102126" locked="0" name="inst_76B4024B" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="1856"/>
+    <instance code="" colour="4294967295" id="102127" locked="0" name="inst_C0A459D3" objName="object2" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="768"/>
+    <instance code="" colour="4294967295" id="102128" locked="0" name="inst_D8A20A8A" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="768"/>
+    <instance code="" colour="4294967295" id="102129" locked="0" name="inst_C8768BC5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="5440"/>
+    <instance code="" colour="4294967295" id="102130" locked="0" name="inst_93EB1184" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="1024"/>
+    <instance code="" colour="4294967295" id="102131" locked="0" name="inst_65BF1CAE" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="1280"/>
+    <instance code="" colour="4294967295" id="102132" locked="0" name="inst_9EB37888" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="1472"/>
+    <instance code="" colour="4294967295" id="102133" locked="0" name="inst_A0BAE290" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="1664"/>
+    <instance code="" colour="4294967295" id="102134" locked="0" name="inst_7764F86E" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="5440"/>
+    <instance code="" colour="4294967295" id="102135" locked="0" name="inst_28927DA9" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="5184"/>
+    <instance code="" colour="4294967295" id="102136" locked="0" name="inst_C39B2413" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="4928"/>
+    <instance code="" colour="4294967295" id="102137" locked="0" name="inst_8642318D" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="4672"/>
+    <instance code="" colour="4294967295" id="102138" locked="0" name="inst_13EB37DF" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="5184"/>
+    <instance code="" colour="4294967295" id="102139" locked="0" name="inst_49D6A46F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6016" y="4928"/>
+    <instance code="" colour="4294967295" id="102140" locked="0" name="inst_7953C585" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="4672"/>
+    <instance code="" colour="4294967295" id="102141" locked="0" name="inst_F7FBA8EE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="4672"/>
+    <instance code="" colour="4294967295" id="102142" locked="0" name="inst_61E499E1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="4672"/>
+    <instance code="" colour="4294967295" id="102143" locked="0" name="inst_214E686B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="4672"/>
+    <instance code="" colour="4294967295" id="102144" locked="0" name="inst_22D49ED0" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="3072"/>
+    <instance code="" colour="4294967295" id="102145" locked="0" name="inst_03A6E3E0" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3200" y="3072"/>
+    <instance code="" colour="4294967295" id="102146" locked="0" name="inst_5E677E98" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3456" y="3072"/>
+    <instance code="" colour="4294967295" id="102147" locked="0" name="inst_B7B0A848" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3712" y="3072"/>
+    <instance code="" colour="4294967295" id="102148" locked="0" name="inst_CBBF02F2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3968" y="3072"/>
+    <instance code="" colour="4294967295" id="102149" locked="0" name="inst_58B29596" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4224" y="3072"/>
+    <instance code="" colour="4294967295" id="102150" locked="0" name="inst_A38B37A7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4480" y="3072"/>
+    <instance code="" colour="4294967295" id="102151" locked="0" name="inst_B8E1E383" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4736" y="3072"/>
+    <instance code="" colour="4294967295" id="102152" locked="0" name="inst_FE29C78C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4992" y="3072"/>
+    <instance code="" colour="4294967295" id="102153" locked="0" name="inst_CD9C3DF2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="3072"/>
+    <instance code="" colour="4294967295" id="102154" locked="0" name="inst_D237EE99" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5504" y="3072"/>
+    <instance code="" colour="4294967295" id="102155" locked="0" name="inst_3927C10A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="3072"/>
+    <instance code="" colour="4294967295" id="102156" locked="0" name="inst_B905C02D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6016" y="3072"/>
+    <instance code="" colour="4294967295" id="102157" locked="0" name="inst_A27C21C2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6272" y="3072"/>
+    <instance code="" colour="4294967295" id="102158" locked="0" name="inst_0C09572C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6528" y="3072"/>
+    <instance code="" colour="4294967295" id="102159" locked="0" name="inst_2E2E23B7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6784" y="3072"/>
+    <instance code="" colour="4294967295" id="102160" locked="0" name="inst_675894E4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7040" y="3072"/>
+    <instance code="" colour="4294967295" id="102161" locked="0" name="inst_BF663AD1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7424" y="3072"/>
+    <instance code="" colour="4294967295" id="102162" locked="0" name="inst_D7E3C1E8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="256" y="1536"/>
+    <instance code="" colour="4294967295" id="102163" locked="0" name="inst_19F6611D" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="3008"/>
+    <instance code="" colour="4294967295" id="102164" locked="0" name="inst_217B92D0" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="1536"/>
+    <instance code="" colour="4294967295" id="102165" locked="0" name="inst_DFD7A2E8" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="3072"/>
+    <instance code="" colour="4294967295" id="102166" locked="0" name="inst_09203344" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2688" y="3072"/>
+    <instance code="" colour="4294967295" id="102167" locked="0" name="inst_E6006AB7" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="384" y="1536"/>
+    <instance code="" colour="4294967295" id="102168" locked="0" name="inst_75031DAC" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="3392"/>
+    <instance code="" colour="4294967295" id="102169" locked="0" name="inst_72F83C6C" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="3392"/>
+    <instance code="" colour="4294967295" id="102170" locked="0" name="inst_37A804AB" objName="object1" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="4096"/>
+    <instance code="" colour="4294967295" id="102171" locked="0" name="inst_23EF282D" objName="object1" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="4096"/>
+    <instance code="" colour="4294967295" id="102172" locked="0" name="inst_F8D0CFB3" objName="object2" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="2304"/>
+    <instance code="" colour="4294967295" id="102173" locked="0" name="inst_E200EE5F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="1536"/>
+    <instance code="" colour="4294967295" id="102174" locked="0" name="inst_33DB8BA1" objName="object2" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="2304"/>
+    <instance code="" colour="4294967295" id="102175" locked="0" name="inst_9C4D2EE7" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="3008"/>
+    <instance code="" colour="4294967295" id="102176" locked="0" name="inst_D9C7A09C" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="7680" y="2816"/>
+    <instance code="" colour="4294967295" id="102177" locked="0" name="inst_24B52DA4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="1280"/>
+    <instance code="" colour="4294967295" id="102178" locked="0" name="inst_FE728F29" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="896" y="1280"/>
+    <instance code="" colour="4294967295" id="102179" locked="0" name="inst_4040A86B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="128" y="1280"/>
+    <instance code="" colour="4294967295" id="102180" locked="0" name="inst_433D4892" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="0" y="1280"/>
+    <instance code="" colour="4294967295" id="102181" locked="0" name="inst_634749FE" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1152" y="1280"/>
+    <instance code="" colour="4294967295" id="102182" locked="0" name="inst_80AA1FD1" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1152" y="1536"/>
+    <instance code="" colour="4294967295" id="102183" locked="0" name="inst_B68A9116" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="896" y="1536"/>
+    <instance code="" colour="4294967295" id="102184" locked="0" name="inst_2E336194" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1280" y="3200"/>
+    <instance code="" colour="4294967295" id="102185" locked="0" name="inst_18AE6910" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="640" y="3200"/>
+    <instance code="" colour="4294967295" id="102186" locked="0" name="inst_2EA90C69" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="1792"/>
+    <instance code="" colour="4294967295" id="102187" locked="0" name="inst_C88B17E0" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="2048"/>
+    <instance code="" colour="4294967295" id="102188" locked="0" name="inst_D4B6D4EC" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1664" y="2304"/>
+    <instance code="" colour="4294967295" id="102189" locked="0" name="inst_70DE5BA7" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="2304"/>
+    <instance code="" colour="4294967295" id="102190" locked="0" name="inst_5FC8E960" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="2048"/>
+    <instance code="" colour="4294967295" id="102191" locked="0" name="inst_FF32A6F5" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1920" y="2304"/>
+    <instance code="" colour="4294967295" id="102192" locked="0" name="inst_C9BB1BE4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2176" y="2304"/>
+    <instance code="" colour="4294967295" id="102193" locked="0" name="inst_51344553" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2432" y="2304"/>
+    <instance code="" colour="4294967295" id="102194" locked="0" name="inst_FF3DAC54" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2688" y="2304"/>
+    <instance code="" colour="4294967295" id="102195" locked="0" name="inst_A3806EA9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2816" y="2048"/>
+    <instance code="" colour="4294967295" id="102196" locked="0" name="inst_B4141F18" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2560" y="2048"/>
+    <instance code="" colour="4294967295" id="102197" locked="0" name="inst_A3EE3B8B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2304" y="2048"/>
+    <instance code="" colour="4294967295" id="102198" locked="0" name="inst_B39EC044" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2048" y="2048"/>
+    <instance code="" colour="4294967295" id="102199" locked="0" name="inst_83F9DAA3" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="2048"/>
+    <instance code="" colour="4294967295" id="102200" locked="0" name="inst_928269AC" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1536" y="1536"/>
+    <instance code="" colour="4294967295" id="102201" locked="0" name="inst_8EF50E7B" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1664" y="1280"/>
+    <instance code="" colour="4294967295" id="102202" locked="0" name="inst_2ABCD5E3" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="1536"/>
+    <instance code="" colour="4294967295" id="102203" locked="0" name="inst_8B751F2C" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1792" y="1792"/>
+    <instance code="" colour="4294967295" id="102204" locked="0" name="inst_7F9C4F82" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="1408" y="1280"/>
+    <instance code="" colour="4294967295" id="102205" locked="0" name="inst_5BB464F2" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="1792"/>
+    <instance code="" colour="4294967295" id="102206" locked="0" name="inst_14315DEA" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="1536"/>
+    <instance code="" colour="4294967295" id="102207" locked="0" name="inst_A264B505" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="1280"/>
+    <instance code="" colour="4294967295" id="102208" locked="0" name="inst_53671A6A" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="1024"/>
+    <instance code="" colour="4294967295" id="102209" locked="0" name="inst_01D9DA3E" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="2944" y="768"/>
+    <instance code="" colour="4294967295" id="102210" locked="0" name="inst_1277A9EF" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="1792"/>
+    <instance code="" colour="4294967295" id="102211" locked="0" name="inst_89DEC6CF" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3072" y="1536"/>
+    <instance code="" colour="4294967295" id="102212" locked="0" name="inst_A0A3F34E" objName="object2" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="4480"/>
+    <instance code="" colour="4294967295" id="102213" locked="0" name="inst_A5BE2666" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="5312"/>
+    <instance code="" colour="4294967295" id="102214" locked="0" name="inst_9F968778" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="5120"/>
+    <instance code="" colour="4294967295" id="102215" locked="0" name="inst_F7C69DB2" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3968" y="2304"/>
+    <instance code="" colour="4294967295" id="102216" locked="0" name="inst_08B70A11" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="3840" y="2048"/>
+    <instance code="" colour="4294967295" id="102217" locked="0" name="inst_5764B5E0" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="4352"/>
+    <instance code="" colour="4294967295" id="102218" locked="0" name="inst_A244CEE5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="4608"/>
+    <instance code="" colour="4294967295" id="102219" locked="0" name="inst_BF9B2608" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="4864"/>
+    <instance code="" colour="4294967295" id="102220" locked="0" name="inst_3D90E4FC" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="5120"/>
+    <instance code="" colour="4294967295" id="102221" locked="0" name="inst_5F39AE52" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="5376"/>
+    <instance code="" colour="4294967295" id="102222" locked="0" name="inst_63F3C1A6" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="5632"/>
+    <instance code="" colour="4294967295" id="102223" locked="0" name="inst_54C78491" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="5888"/>
+    <instance code="" colour="4294967295" id="102224" locked="0" name="inst_DBDF9E52" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="256"/>
+    <instance code="" colour="4294967295" id="102225" locked="0" name="inst_91D28290" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="512"/>
+    <instance code="" colour="4294967295" id="102226" locked="0" name="inst_2B969CD3" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="768"/>
+    <instance code="" colour="4294967295" id="102227" locked="0" name="inst_1AA62AEC" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="1024"/>
+    <instance code="" colour="4294967295" id="102228" locked="0" name="inst_C158CEE6" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="1280"/>
+    <instance code="" colour="4294967295" id="102229" locked="0" name="inst_1CA2DB88" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="1536"/>
+    <instance code="" colour="4294967295" id="102230" locked="0" name="inst_AF9A58DD" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="1792"/>
+    <instance code="" colour="4294967295" id="102231" locked="0" name="inst_E0A38155" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4224" y="2304"/>
+    <instance code="" colour="4294967295" id="102232" locked="0" name="inst_5EA0A101" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4096" y="2048"/>
+    <instance code="" colour="4294967295" id="102233" locked="0" name="inst_F98A048C" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4352" y="2048"/>
+    <instance code="" colour="4294967295" id="102234" locked="0" name="inst_1F60A44B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4352" y="2304"/>
+    <instance code="" colour="4294967295" id="102235" locked="0" name="inst_F44DD4EC" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="2304"/>
+    <instance code="" colour="4294967295" id="102236" locked="0" name="inst_6A28C51D" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="2048"/>
+    <instance code="" colour="4294967295" id="102237" locked="0" name="inst_44AE9B9A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="2048"/>
+    <instance code="" colour="4294967295" id="102238" locked="0" name="inst_6DEA40D5" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="2304"/>
+    <instance code="" colour="4294967295" id="102239" locked="0" name="inst_79E229A3" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="2304"/>
+    <instance code="" colour="4294967295" id="102240" locked="0" name="inst_31035A5E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="2048"/>
+    <instance code="" colour="4294967295" id="102241" locked="0" name="inst_9D78F110" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5376" y="2304"/>
+    <instance code="" colour="4294967295" id="102242" locked="0" name="inst_42C1A486" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="2304"/>
+    <instance code="" colour="4294967295" id="102243" locked="0" name="inst_8699BAAB" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="2304"/>
+    <instance code="" colour="4294967295" id="102244" locked="0" name="inst_0164CC2B" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5376" y="2048"/>
+    <instance code="" colour="4294967295" id="102245" locked="0" name="inst_99875340" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="2048"/>
+    <instance code="" colour="4294967295" id="102246" locked="0" name="inst_7C3FC2E3" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="2048"/>
+    <instance code="" colour="4294967295" id="102247" locked="0" name="inst_C4051217" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="2304"/>
+    <instance code="" colour="4294967295" id="102248" locked="0" name="inst_CA818B04" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="2304"/>
+    <instance code="" colour="4294967295" id="102249" locked="0" name="inst_63F0252F" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="2048"/>
+    <instance code="" colour="4294967295" id="102250" locked="0" name="inst_645A2317" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="2048"/>
+    <instance code="" colour="4294967295" id="102251" locked="0" name="inst_06165D58" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="2304"/>
+    <instance code="" colour="4294967295" id="102252" locked="0" name="inst_021FB0AD" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="2048"/>
+    <instance code="" colour="4294967295" id="102253" locked="0" name="inst_06382D5C" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="2304"/>
+    <instance code="" colour="4294967295" id="102254" locked="0" name="inst_9CA33B02" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="2048"/>
+    <instance code="" colour="4294967295" id="102255" locked="0" name="inst_864AF82F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="1536"/>
+    <instance code="" colour="4294967295" id="102256" locked="0" name="inst_9BCDF4A5" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="1536"/>
+    <instance code="" colour="4294967295" id="102257" locked="0" name="inst_3E25A635" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="1536"/>
+    <instance code="" colour="4294967295" id="102258" locked="0" name="inst_DDA7F0B4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="1536"/>
+    <instance code="" colour="4294967295" id="102259" locked="0" name="inst_3B537F1C" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="1536"/>
+    <instance code="" colour="4294967295" id="102260" locked="0" name="inst_EB7BC6FA" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="1280"/>
+    <instance code="" colour="4294967295" id="102261" locked="0" name="inst_830D3C6A" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="1024"/>
+    <instance code="" colour="4294967295" id="102262" locked="0" name="inst_85F27B6F" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="1280"/>
+    <instance code="" colour="4294967295" id="102263" locked="0" name="inst_4247D642" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5760" y="1024"/>
+    <instance code="" colour="4294967295" id="102264" locked="0" name="inst_2E1AA6B9" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5632" y="768"/>
+    <instance code="" colour="4294967295" id="102265" locked="0" name="inst_40269BB2" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5888" y="768"/>
+    <instance code="" colour="4294967295" id="102266" locked="0" name="inst_DA5CA18E" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6144" y="768"/>
+    <instance code="" colour="4294967295" id="102267" locked="0" name="inst_FE36291A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6400" y="768"/>
+    <instance code="" colour="4294967295" id="102268" locked="0" name="inst_79C4A60A" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6656" y="768"/>
+    <instance code="" colour="4294967295" id="102269" locked="0" name="inst_20401AD4" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6784" y="768"/>
+    <instance code="" colour="4294967295" id="102270" locked="0" name="inst_5829F008" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5376" y="768"/>
+    <instance code="" colour="4294967295" id="102271" locked="0" name="inst_FE0A7B35" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5120" y="768"/>
+    <instance code="" colour="4294967295" id="102272" locked="0" name="inst_03C14756" objName="object3" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4864" y="768"/>
+    <instance code="" colour="4294967295" id="102273" locked="0" name="inst_F5938989" objName="object4" rotation="0.0" scaleX="2.0" scaleY="2.0" x="4608" y="768"/>
+    <instance code="" colour="4294967295" id="102274" locked="0" name="inst_D37E96A5" objName="object5" rotation="0.0" scaleX="2.0" scaleY="2.0" x="6912" y="768"/>
+    <instance code="" colour="4294967295" id="102275" locked="0" name="inst_E3D83834" objName="object1" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="1984"/>
+    <instance code="" colour="4294967295" id="102276" locked="0" name="inst_9EC0AFFF" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="1152"/>
+    <instance code="" colour="4294967295" id="102277" locked="0" name="inst_5D0989B1" objName="obj_gold" rotation="0.0" scaleX="2.0" scaleY="2.0" x="5248" y="1344"/>
+  </instances>
+  <tiles/>
+  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorldTop>0</PhysicsWorldTop>
+  <PhysicsWorldLeft>0</PhysicsWorldLeft>
+  <PhysicsWorldRight>640</PhysicsWorldRight>
+  <PhysicsWorldBottom>480</PhysicsWorldBottom>
+  <PhysicsWorldGravityX>0.0</PhysicsWorldGravityX>
+  <PhysicsWorldGravityY>10.0</PhysicsWorldGravityY>
+  <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
+</room>

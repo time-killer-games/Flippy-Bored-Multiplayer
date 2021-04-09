@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>&lt;undefined&gt;</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>-300000</depth>
+  <persistent>-1</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_xscale = 2;
+image_yscale = 2;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spee-=.005
+if spee&lt;=0
+{spee=0}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="4" eventtype="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spee=1
+
+if (room==level1)
+
+{sound_stop_all()
+
+sound_loop(snd_theme2)}
+
+if (room==level2)
+
+{sound_stop_all()
+
+sound_loop(snd_theme2)}
+
+if (room==level3)
+
+{sound_stop_all()
+
+sound_loop(snd_theme2)}
+
+if (room==level4)
+
+{sound_stop_all()
+
+sound_loop(snd_theme3)}
+
+if (room==level5)
+
+{sound_stop_all()
+
+sound_loop(snd_theme3)}
+
+if (room==level6)
+
+{sound_stop_all()
+
+sound_loop(snd_theme3)}
+
+if (room==level7)
+
+{sound_stop_all()
+
+sound_loop(snd_theme4)}
+
+if (room==level8)
+
+{sound_stop_all()
+
+sound_loop(snd_theme4)}
+
+if (room==level9)
+
+{sound_stop_all()
+
+sound_loop(snd_theme4)}</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="64" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>display_set_gui_size(1600,1200)
+if (room==level1)
+{draw_sprite_ext(spr_levels,0,800,600,2,2,0,c_white,spee)}
+if (room==level2)
+{draw_sprite_ext(spr_levels,1,800,600,2,2,0,c_white,spee)}
+if (room==level3)
+{draw_sprite_ext(spr_levels,2,800,600,2,2,0,c_white,spee)}
+if (room==level4)
+{draw_sprite_ext(spr_levels,3,800,600,2,2,0,c_white,spee)}
+if (room==level5)
+{draw_sprite_ext(spr_levels,4,800,600,2,2,0,c_white,spee)}
+if (room==level6)
+{draw_sprite_ext(spr_levels,5,800,600,2,2,0,c_white,spee)}
+if (room==level7)
+{draw_sprite_ext(spr_levels,6,800,600,2,2,0,c_white,spee)}
+if (room==level8)
+{draw_sprite_ext(spr_levels,7,800,600,2,2,0,c_white,spee)}
+if (room==level9)
+{draw_sprite_ext(spr_levels,8,800,600,2,2,0,c_white,spee)}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints/>
+</object>

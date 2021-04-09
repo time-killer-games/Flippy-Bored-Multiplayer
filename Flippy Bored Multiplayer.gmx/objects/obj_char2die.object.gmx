@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>sprite10</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>-180</depth>
+  <persistent>0</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>speed=0
+
+global.toink=0
+
+with (obj_char2shad)
+
+{instance_destroy()}
+
+view_object[1]=-1
+
+image_speed=0
+
+image_index=1
+
+vspeed=-32
+
+index=0
+
+sound_play(snd_dead)</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>vspeed+=4
+if global.p2end=1
+{if instance_exists(obj_chardie)
+{if global.p1end=1&amp;&amp;global.toink&gt;=10
+{if keyboard_check_pressed(vk_left)==1||
+keyboard_check_pressed(vk_right)==1||
+keyboard_check_pressed(vk_up)==1||
+keyboard_check_pressed(vk_down)==1
+{if room_exists(room_next(room))
+{room_goto_next()}
+else {game_restart()}}}}}
+global.toink+=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="41" eventtype="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.char2_lives&lt;=0
+{global.p2end=1}
+else {t=instance_create(global.xstart2,global.ystart2,obj_char2)
+t.index = index
+instance_destroy()}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="64" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>index+=1
+if index&gt;=9
+{index=0}
+
+draw_sprite_ext(spr_gui,0,800,0,2,2,0,c_white,1)
+
+for (i=0; i&lt;=global.char2_lives; i+=1)
+{draw_sprite_ext(spr_char2lives,image_index,800+64+(i*64),64,2,2,0,c_white,1)}
+
+if global.p2end==1
+{draw_sprite_ext(spr_gameover,index,800,0,2,2,0,c_white,1)
+draw_set_font(fnt_default2)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+
+
+draw_text_color(800+400-8,600-150-8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400+8,600-150+8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400-8,600-150+8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400+8,600-150-8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+
+draw_text_color(800+400+8,600-150,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400,600-150+8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400-8,600-150,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+400,600-150+8,"P2 GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+
+
+draw_text_color(800+400,600-150,"P2 GOLD: "+string(global.char2_score),c_aqua,c_aqua,c_yellow,c_yellow,1)}
+else {draw_set_font(fnt_default)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+
+draw_text_color(800+80-4,128+16,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80,128+16-4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80-4,128+16-4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80+4,128+16-4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+
+draw_text_color(800+80-4,128+16+4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80+4,128+16,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80,128+16+4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(800+80+4,128+16+4,"GOLD: "+string(global.char2_score),c_black,c_black,c_black,c_black,1)
+
+draw_text_color(800+80,128+16,"GOLD: "+string(global.char2_score),c_aqua,c_aqua,c_yellow,c_yellow,1)
+
+draw_set_font(fnt_default)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+
+draw_text_color(880-4,1200-(128-16),"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880,1200-(128-16)-4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880-4,1200-(128-16)-4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880-4,1200-(128-16)+4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+
+draw_text_color(880+4,1200-(128-16)-4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880+4,1200-(128-16)+4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880+4,1200-(128-16),"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(880,1200-(128-16)+4,"PLAYER 2: ARROW KEYS",c_black,c_black,c_black,c_black,1)
+
+draw_text_color(880,1200-(128-16),"PLAYER 2: ARROW KEYS",c_aqua,c_aqua,c_yellow,c_yellow,1)}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="27" eventtype="10">
+      <action>
+        <libid>1</libid>
+        <id>332</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_end_game</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints>
+    <point>-105.0,-88.0</point>
+    <point>128.0,128.0</point>
+  </PhysicsShapePoints>
+</object>

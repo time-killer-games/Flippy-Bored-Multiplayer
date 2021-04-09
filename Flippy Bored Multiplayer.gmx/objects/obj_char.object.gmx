@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object>
+  <spriteName>sprite2</spriteName>
+  <solid>0</solid>
+  <visible>-1</visible>
+  <depth>-91</depth>
+  <persistent>0</persistent>
+  <maskName>&lt;undefined&gt;</maskName>
+  <parentName>&lt;undefined&gt;</parentName>
+  <events>
+    <event enumb="0" eventtype="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>x=xstart
+y=ystart
+global.xstart1=xstart
+global.ystart1=ystart
+
+view_object[0]=object_index
+image_blend=c_white
+image_yscale=1
+image_speed=.5
+speed=16
+
+t=instance_create(x+4,y+4,obj_charshad)
+t.sprite_index=sprite_index
+t.image_index=image_index
+t.image_xscale=image_xscale
+t.image_yscale=image_yscale
+t.image_angle=image_angle
+t.image_blend=c_black
+t.image_alpha=.5
+poop=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="0" eventtype="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (keyboard_check(global.k_W)==0&amp;&amp;
+keyboard_check(global.k_A)==0&amp;&amp;
+keyboard_check(global.k_S)==0&amp;&amp;
+keyboard_check(global.k_D)==0)
+{direction+=8}
+else {direction-=8}
+image_angle=direction
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>instance_exists(obj_gold)</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_blend=c_red
+image_yscale=-1
+image_angle=0
+direction=0
+global.p1end=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>202</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_change_object</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_chardie</object>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>-1</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>instance_exists(obj_gold)</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_blend=c_red
+image_yscale=-1
+image_angle=0
+direction=0
+global.char_lives=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>202</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_change_object</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_chardie</object>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>0</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+    <event ename="object1" eventtype="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_blend=c_red
+image_yscale=-image_yscale
+image_angle=0
+direction=0
+if poop=0 
+{global.char_lives-=1
+t=instance_create(x,y,obj_chardie)
+t.image_xscale=image_xscale
+t.image_yscale=image_yscale
+instance_destroy()
+poop=1}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="4" eventtype="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.char_lives=10
+if global.tuff==0
+{global.char_score=0
+global.tuff=1}
+global.p1end=0
+index=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="64" eventtype="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>index+=1
+if index&gt;=9
+{index=0}
+
+draw_sprite_ext(spr_gui,0,0,0,2,2,0,c_white,1)
+
+for (i=0; i&lt;global.char_lives; i+=1)
+{draw_sprite_ext(spr_charlives,image_index,64+(i*64),64,2,2,0,c_white,1)}
+
+draw_set_font(fnt_default)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+
+draw_text_color(80-4,128+16,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80,128+16-4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80-4,128+16-4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80-4,128+16+4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+
+draw_text_color(80+4,128+16+4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80+4,128+16,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80,128+16+4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+draw_text_color(80+4,128+16-4,"GOLD: "+string(global.char_score),c_black,c_black,c_black,c_black,1)
+
+draw_text_color(80,128+16,"GOLD: "+string(global.char_score),c_orange,c_orange,c_yellow,c_yellow,1)
+
+draw_set_font(fnt_default)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+
+draw_text_color(80-4,1200-(128-16)-4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80,1200-(128-16)-4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80-4,1200-(128-16),"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80-4,1200-(128-16)+4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+
+draw_text_color(80+4,1200-(128-16)+4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80,1200-(128-16)+4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80+4,1200-(128-16),"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+draw_text_color(80+4,1200-(128-16)-4,"PLAYER 1: WASD KEYS",c_black,c_black,c_black,c_black,1)
+
+draw_text_color(80,1200-(128-16),"PLAYER 1: WASD KEYS",c_orange,c_orange,c_yellow,c_yellow,1)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event enumb="27" eventtype="10">
+      <action>
+        <libid>1</libid>
+        <id>332</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <useapplyto>0</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>1</exetype>
+        <functionname>action_end_game</functionname>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments/>
+      </action>
+    </event>
+  </events>
+  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
+  <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsShapePoints>
+    <point>-105.0,-88.0</point>
+    <point>128.0,128.0</point>
+  </PhysicsShapePoints>
+</object>
